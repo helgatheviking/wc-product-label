@@ -1,0 +1,58 @@
+# Copyright (C) 2017 Snappic
+# This file is distributed under the GPL2 http://www.gnu.org/licenses/gpl-2.0.html.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Label Gallery for WooCommerce 1.0.0-beta\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-label-gallery\n"
+"POT-Creation-Date: 2017-08-08 16:59:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: wc-label-gallery.php:100
+msgid "Choose an image"
+msgstr ""
+
+#: wc-label-gallery.php:113
+msgid "Label gallery"
+msgstr ""
+
+#: wc-label-gallery.php:146 wc-label-gallery.php:166
+msgid "Delete image"
+msgstr ""
+
+#: wc-label-gallery.php:146 wc-label-gallery.php:166
+msgid "Delete"
+msgstr ""
+
+#: wc-label-gallery.php:166
+msgid "Add images to product label gallery"
+msgstr ""
+
+#: wc-label-gallery.php:166
+msgid "Add to label gallery"
+msgstr ""
+
+#: wc-label-gallery.php:166
+msgid "Add product label images"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Product Label Gallery for WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Show product labels under the product title"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Snappic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.kathyisawesome.com"
+msgstr ""

@@ -1,0 +1,127 @@
+#wc-product-label-gallery .inside {
+    margin: 0;
+    padding: 0
+}
+#wc-product-label-gallery .inside .add_product_label_images {
+    padding: 0 12px 12px
+}
+#wc-product-label-gallery .inside #product_label_images_container {
+    padding: 0 0 0 9px
+}
+#wc-product-label-gallery .inside #product_label_images_container ul {
+    margin: 0;
+    padding: 0
+}
+#wc-product-label-gallery .inside #product_label_images_container ul::after,
+#wc-product-label-gallery .inside #product_label_images_container ul::before {
+    content: ' ';
+    display: table
+}
+#wc-product-label-gallery .inside #product_label_images_container ul::after {
+    clear: both
+}
+#wc-product-label-gallery .inside #product_label_images_container ul li.add,
+#wc-product-label-gallery .inside #product_label_images_container ul li.image,
+#wc-product-label-gallery .inside #product_label_images_container ul li.wc-metabox-sortable-placeholder {
+    width: 80px;
+    float: left;
+    cursor: move;
+    border: 1px solid #d5d5d5;
+    margin: 9px 9px 0 0;
+    background: #f7f7f7;
+    border-radius: 2px;
+    position: relative;
+    box-sizing: border-box
+}
+#wc-product-label-gallery .inside #product_label_images_container ul li.add img,
+#wc-product-label-gallery .inside #product_label_images_container ul li.image img,
+#wc-product-label-gallery .inside #product_label_images_container ul li.wc-metabox-sortable-placeholder img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+#wc-product-label-gallery .inside #product_label_images_container ul li.wc-metabox-sortable-placeholder {
+    border: 3px dashed #ddd;
+    position: relative
+}
+#wc-product-label-gallery .inside #product_label_images_container ul li.wc-metabox-sortable-placeholder::after {
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "ï…¡";
+    font-size: 2.618em;
+    line-height: 72px;
+    color: #ddd
+}
+#wc-product-label-gallery .inside #product_label_images_container ul ul.actions {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 2px;
+    display: none
+}
+#wc-product-label-gallery .inside #product_label_images_container ul ul.actions li {
+    float: right;
+    margin: 0 0 0 2px
+}
+#wc-product-label-gallery .inside #product_label_images_container ul ul.actions li a {
+    width: 1em;
+    height: 1em;
+    margin: 0;
+    height: 0;
+    display: block;
+    overflow: hidden
+}
+#wc-product-label-gallery .inside #product_label_images_container ul ul.actions li a.tips {
+    cursor: pointer
+}
+#wc-product-label-gallery .inside #product_label_images_container ul ul.actions li a.delete {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    font-size: 1.4em
+}
+#wc-product-label-gallery .inside #product_label_images_container ul ul.actions li a.delete::before {
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\f153";
+    color: #999;
+    background: #fff;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    line-height: 1em
+}
+#wc-product-label-gallery .inside #product_label_images_container ul ul.actions li a.delete:hover::before {
+    color: #a00
+}
+#wc-product-label-gallery .inside #product_label_images_container ul li:hover ul.actions {
+    display: block
+}
