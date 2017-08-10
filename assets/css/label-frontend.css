@@ -1,12 +1,9 @@
-.woocommerce-product-label-gallery {
-	overflow: hidden;
-}
-
 .woocommerce-product-label-gallery .woocommerce-product-label-image {
-    float: left;
     max-width: 6em;
     margin-right: .5em;
     margin-bottom: .5em;
+    vertical-align: top;
+    display: inline-block;
 }
 
 .post-type-archive-product .woocommerce-product-label-gallery .woocommerce-product-label-image {
