@@ -1,10 +1,10 @@
-# Copyright (C) 2017 Snappic
+# Copyright (C) 2017 helgatheviking
 # This file is distributed under the GPL2 http://www.gnu.org/licenses/gpl-2.0.html.
 msgid ""
 msgstr ""
 "Project-Id-Version: Product Label Gallery for WooCommerce 1.0.0-beta\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-label-gallery\n"
-"POT-Creation-Date: 2017-08-08 16:59:56+00:00\n"
+"POT-Creation-Date: 2017-08-10 15:02:49+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,12 +45,16 @@ msgstr ""
 msgid "Product Label Gallery for WooCommerce"
 msgstr ""
 
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/helgatheviking/wc-product-label"
+msgstr ""
+
 #. Description of the plugin/theme
 msgid "Show product labels under the product title"
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Snappic"
+msgid "helgatheviking"
 msgstr ""
 
 #. Author URI of the plugin/theme
