@@ -192,9 +192,7 @@ class WC_Label_Gallery {
      * @param WP_Post $post
      */
     public function frontend_styles() {
-        if( is_product() || is_shop() || is_post_type_archive( 'product' ) ) {
-            wp_enqueue_style( 'wc-label-gallery', $this->plugin_url() . '/assets/css/label-frontend.css' );
-        }
+        wp_enqueue_style( 'wc-label-gallery', $this->plugin_url() . '/assets/css/label-frontend.css' );
     }
 
     /**
