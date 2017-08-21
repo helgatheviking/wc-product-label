@@ -1,7 +1,7 @@
 {
   "title": "Product Label Gallery for WooCommerce",
   "name": "wc-label-gallery",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-rc-1",
   "description": "Show labels after product title",
   "main": "Gruntfile.js",
   "license": "GPL-2",

@@ -1,21 +1,21 @@
 <?php
 /**
-Plugin Name: Product Label Gallery for WooCommerce
-Plugin URI: https://github.com/helgatheviking/wc-product-label
-Description: Show product labels under the product title
-Version: 1.0.0-beta
-Author: helgatheviking
-Author URI: http://www.kathyisawesome.com
-License: GPL2 http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: wc-label-gallery
-Domain Path: /languages
+ * Plugin Name: Product Label Gallery for WooCommerce
+ * Plugin URI: https://github.com/helgatheviking/wc-product-label
+ * Description: Show product labels under the product title
+ * Version: 1.0.0-beta
+ * Author: helgatheviking
+ * Author URI: http://www.kathyisawesome.com
+ * License: GPL2 http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: wc-label-gallery
+ * Domain Path: /languages
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 class WC_Label_Gallery {
 
-    const VERSION = '1.0.0-beta';
+    const VERSION = '1.0.0-rc-1';
     const REQUIRED_WOO = '3.1.0';
 
     public static $_instance;
