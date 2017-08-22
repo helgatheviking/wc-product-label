@@ -1,11 +1,7 @@
 .woocommerce-product-label-gallery .woocommerce-product-label-image {
-    max-width: 6em;
+    max-width: 3em;
     margin-right: .5em;
     margin-bottom: .5em;
     vertical-align: top;
     display: inline-block;
-}
-
-.post-type-archive-product .woocommerce-product-label-gallery .woocommerce-product-label-image {
-    max-width: 3em;
 }
