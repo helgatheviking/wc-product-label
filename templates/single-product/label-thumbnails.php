@@ -40,7 +40,7 @@ if ( $attachment_ids ) {
 		);
 
 		$html  .= '<div class="woocommerce-product-label-image">';
-		$html .= wp_get_attachment_image( $attachment_id, 'shop_thumbnail', false, $attributes );
+		$html .= wp_get_attachment_image( $attachment_id, 'label_thumbnail', false, $attributes );
  		$html .= '</div>';
 
 	}

@@ -44,6 +44,7 @@ class WC_Label_Gallery {
         add_action( 'woocommerce_process_product_meta', array( $this, 'save_gallery' ), 10, 2 );
 
         // Display on front-end
+        add_action( 'after_setup_theme', array( $this, 'add_image_sizes' ) );
         add_action( 'wp_enqueue_scripts', array( $this, 'frontend_styles' ) );
         add_action( 'woocommerce_single_product_summary', array( $this, 'display_gallery' ), 7 );
         add_action( 'woocommerce_after_shop_loop_item_title', array( $this, 'display_gallery' ), 3 );  
@@ -184,6 +185,15 @@ class WC_Label_Gallery {
     /*  Front-end                                                                        */
     /*-----------------------------------------------------------------------------------*/
 
+
+    /**
+     * Add Image sizes to WP.
+     *
+     * @since 1.0
+     */
+    public function add_image_sizes() {
+        add_image_size( 'label_thumbnail', 100, 100, true );
+    }
 
     /**
      * Display gallery on front-end.
